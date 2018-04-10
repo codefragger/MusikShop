@@ -31,6 +31,7 @@ app.controller('adminController', function($scope, $http) {
 				}, function(response) {
 					console.log('Error fetching song');
 				});
+		$scope.showAddSongDialogue = true;
 	}
 	
 	$scope.saveSong = function() {
